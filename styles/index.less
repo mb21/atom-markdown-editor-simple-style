@@ -1,0 +1,19 @@
+atom-text-editor[data-grammar~="gfm"] {
+  font-size: 18px;
+  //line-height: 200%; //this messes things up on window resize etc, see https://discuss.atom.io/t/33083/
+  @media (max-width: 1100px) {
+    font-size: 16px;
+  }
+  @media (max-width: 900px) {
+    font-size: 14px;
+  }
+  .scroll-view {
+    padding-top: 2em;
+    >div:first-child {
+      padding-left: calc(~"50% - 24em");
+    }
+    .wrap-guide {
+      display: none !important;
+    }
+  }
+}

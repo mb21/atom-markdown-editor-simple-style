@@ -1,0 +1,19 @@
+{
+  "name": "atom-markdown-editor-simple-style",
+  "main": "./lib/atom-markdown-editor-simple-style",
+  "version": "0.0.0",
+  "description": "Basic CSS style to edit markdown files.",
+  "keywords": [
+    "markdown",
+    "simple",
+    "style",
+    "css"
+  ],
+  "repository": "https://github.com/mb21/atom-markdown-editor-simple-style",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}
