@@ -1,7 +1,7 @@
 {
   "name": "atom-markdown-editor-simple-style",
   "main": "./lib/atom-markdown-editor-simple-style",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Basic CSS style to edit markdown files.",
   "keywords": [
     "markdown",
